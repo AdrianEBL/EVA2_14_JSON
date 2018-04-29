@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_registro"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Registrar restaurante" />
+        <item
+            android:id="@+id/nav_consulta_Url"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Modificar restaurante" />
+        <item
+            android:id="@+id/nav_consulta_gral_img"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="Lista de Restaurantes" />
+    </group>
+
+    <item android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/nav_desarrollador"
+                android:icon="@android:drawable/ic_menu_myplaces"
+                android:title="Acerca de" />
+        </menu>
+    </item>
+
+</menu>
